@@ -4,13 +4,19 @@
   "version": "0.0.3",
   "author": "David Padbury <david@davidpadbury.com>",
   "repository": {
-      "type": "git",
-      "url": "http://github.com/matparisot/node-highcharts.git" 
+    "type": "git",
+    "url": "http://github.com/matparisot/node-highcharts.git"
   },
-  "keywords": ["highcharts", "charts"],
+  "keywords": [
+    "highcharts",
+    "charts"
+  ],
   "dependencies": {
-    "jsdom": "< 4.0.0"
+    "jsdom": "< 4.0.0",
+    "lodash": "^3.10.1"
   },
   "main": "./lib/node-highcharts",
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
